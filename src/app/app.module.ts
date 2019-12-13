@@ -8,7 +8,8 @@ import { PaisComponent } from './pais/pais.component';
 import { RouterModule, PreloadAllModules  } from '@angular/router';
 import {ROUTES} from './app.routes';
 import { HomeComponent } from './home/home.component';
-import { CadastroComponent } from './pessoa/cadastro/cadastro.component'
+import { CadastroComponent } from './pessoa/cadastro/cadastro.component';
+import { ListagemComponent } from './pessoa/listagem/listagem.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CadastroComponent } from './pessoa/cadastro/cadastro.component'
     EstadoComponent,
     PaisComponent,
     HomeComponent,
-    CadastroComponent
+    CadastroComponent,
+    ListagemComponent
   ],
   imports: [
     BrowserModule,
