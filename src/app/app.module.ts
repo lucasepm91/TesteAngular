@@ -9,7 +9,9 @@ import { RouterModule, PreloadAllModules  } from '@angular/router';
 import {ROUTES} from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { CadastroComponent } from './pessoa/cadastro/cadastro.component';
-import { ListagemComponent } from './pessoa/listagem/listagem.component'
+import { ListagemComponent } from './pessoa/listagem/listagem.component';
+import { DeletarPessoaComponent } from './pessoa/deletar-pessoa/deletar-pessoa.component';
+import { DetalharPessoaComponent } from './pessoa/detalhar-pessoa/detalhar-pessoa.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ListagemComponent } from './pessoa/listagem/listagem.component'
     PaisComponent,
     HomeComponent,
     CadastroComponent,
-    ListagemComponent
+    ListagemComponent,
+    DeletarPessoaComponent,
+    DetalharPessoaComponent
   ],
   imports: [
     BrowserModule,
