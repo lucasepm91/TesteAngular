@@ -7,7 +7,8 @@ import { EstadoComponent } from './estado/estado.component';
 import { PaisComponent } from './pais/pais.component';
 import { RouterModule, PreloadAllModules  } from '@angular/router';
 import {ROUTES} from './app.routes';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { CadastroComponent } from './pessoa/cadastro/cadastro.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component'
     PessoaComponent,
     EstadoComponent,
     PaisComponent,
-    HomeComponent
+    HomeComponent,
+    CadastroComponent
   ],
   imports: [
     BrowserModule,
