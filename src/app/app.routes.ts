@@ -5,8 +5,8 @@ import { PessoaComponent } from './pessoa/pessoa.component'
 import { HeaderComponent } from './header/header.component'
 
 export const ROUTES: Routes = [
-    {path: '/',component: HeaderComponent},
-    {path: '/pessoas',component: PessoaComponent},
-    {path: '/paises',component: PaisComponent},
-    {path: '/estados',component: EstadoComponent}
+    {path: '',component: HeaderComponent},
+    {path: 'pessoas',component: PessoaComponent},
+    {path: 'paises',component: PaisComponent},
+    {path: 'estados',component: EstadoComponent}
 ]

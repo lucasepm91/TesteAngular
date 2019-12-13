@@ -5,6 +5,8 @@ import { HeaderComponent } from './header/header.component';
 import { PessoaComponent } from './pessoa/pessoa.component';
 import { EstadoComponent } from './estado/estado.component';
 import { PaisComponent } from './pais/pais.component';
+import { RouterModule, PreloadAllModules  } from '@angular/router';
+import {ROUTES} from './app.routes'
 
 @NgModule({
   declarations: [
@@ -15,7 +17,8 @@ import { PaisComponent } from './pais/pais.component';
     PaisComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules})    
   ],
   providers: [],
   bootstrap: [AppComponent]
