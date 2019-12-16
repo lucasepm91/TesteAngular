@@ -22,5 +22,5 @@ export const ROUTES: Routes = [
     {path: 'listarEstados', component: EstadoListagemComponent},
     {path: 'cadastroEstado', component: EstadoCadastroComponent},
     {path: 'deletarEstado', component: EstadoDeletarComponent},
-    {path: 'detalhePessoaEstado', component: EstadoDetalheComponent}
+    {path: 'detalheEstado', component: EstadoDetalheComponent}
 ]
