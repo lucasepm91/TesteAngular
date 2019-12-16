@@ -11,7 +11,11 @@ import { HomeComponent } from './home/home.component';
 import { CadastroComponent } from './pessoa/cadastro/cadastro.component';
 import { ListagemComponent } from './pessoa/listagem/listagem.component';
 import { DeletarPessoaComponent } from './pessoa/deletar-pessoa/deletar-pessoa.component';
-import { DetalharPessoaComponent } from './pessoa/detalhar-pessoa/detalhar-pessoa.component'
+import { DetalharPessoaComponent } from './pessoa/detalhar-pessoa/detalhar-pessoa.component';
+import { EstadoListagemComponent } from './estado/estado-listagem/estado-listagem.component';
+import { EstadoCadastroComponent } from './estado/estado-cadastro/estado-cadastro.component';
+import { EstadoDetalheComponent } from './estado/estado-detalhe/estado-detalhe.component';
+import { EstadoDeletarComponent } from './estado/estado-deletar/estado-deletar.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { DetalharPessoaComponent } from './pessoa/detalhar-pessoa/detalhar-pesso
     CadastroComponent,
     ListagemComponent,
     DeletarPessoaComponent,
-    DetalharPessoaComponent
+    DetalharPessoaComponent,
+    EstadoListagemComponent,
+    EstadoCadastroComponent,
+    EstadoDetalheComponent,
+    EstadoDeletarComponent
   ],
   imports: [
     BrowserModule,
