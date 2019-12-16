@@ -10,6 +10,10 @@ import { EstadoListagemComponent } from './estado/estado-listagem/estado-listage
 import { EstadoCadastroComponent } from './estado/estado-cadastro/estado-cadastro.component'
 import { EstadoDeletarComponent } from './estado/estado-deletar/estado-deletar.component'
 import { EstadoDetalheComponent } from './estado/estado-detalhe/estado-detalhe.component'
+import { PaisListagemComponent } from './pais/pais-listagem/pais-listagem.component'
+import { PaisCadastroComponent } from './pais/pais-cadastro/pais-cadastro.component'
+import { PaisDeletarComponent } from './pais/pais-deletar/pais-deletar.component'
+import { PaisDetalheComponent } from './pais/pais-detalhe/pais-detalhe.component'
 
 export const ROUTES: Routes = [    
     {path: 'paises',component: PaisComponent},
@@ -22,5 +26,9 @@ export const ROUTES: Routes = [
     {path: 'listarEstados', component: EstadoListagemComponent},
     {path: 'cadastroEstado', component: EstadoCadastroComponent},
     {path: 'deletarEstado', component: EstadoDeletarComponent},
-    {path: 'detalheEstado', component: EstadoDetalheComponent}
+    {path: 'detalheEstado', component: EstadoDetalheComponent},
+    {path: 'listarPaises', component: PaisListagemComponent},
+    {path: 'cadastroPais', component: PaisCadastroComponent},
+    {path: 'deletarPais', component: PaisDeletarComponent},
+    {path: 'detalhePais', component: PaisDetalheComponent}
 ]
