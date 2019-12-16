@@ -20,6 +20,7 @@ import { PaisListagemComponent } from './pais/pais-listagem/pais-listagem.compon
 import { PaisCadastroComponent } from './pais/pais-cadastro/pais-cadastro.component';
 import { PaisDetalheComponent } from './pais/pais-detalhe/pais-detalhe.component';
 import { PaisDeletarComponent } from './pais/pais-deletar/pais-deletar.component'
+import { FormBuilder } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,7 @@ import { PaisDeletarComponent } from './pais/pais-deletar/pais-deletar.component
     BrowserModule,
     RouterModule.forRoot(ROUTES, {preloadingStrategy: PreloadAllModules})    
   ],
-  providers: [],
+  providers: [FormBuilder],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

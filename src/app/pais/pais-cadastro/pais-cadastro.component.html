@@ -1,17 +1,17 @@
 <app-pais></app-pais>
 
-<form style="width:70%;margin: 0 auto;margin-top:20px;">
+<form style="width:70%;margin: 0 auto;margin-top:20px;" formGroup="formulario">
     <div class="form-group">
       <label for="Nome">Nome:</label>
-      <input type="text" class="form-control" id="NomePais" placeholder="Informe o nome do país">
+      <input type="text" class="form-control" name="NomePais" placeholder="Informe o nome do país">
     </div>    
     <div class="form-group">
       <label for="Continente">Continente:</label>
-      <input type="text" class="form-control" id="Continente" placeholder="Informe o nome do continente">
+      <input type="text" class="form-control" name="Continente" placeholder="Informe o nome do continente">
     </div>   
     <div class="form-group">
       <label for="BandeiraPais">Escolha uma foto da bandeira:</label>
-      <input type="file" class="form-control-file" id="BandeiraPais">
+      <input type="file" class="form-control-file" name="BandeiraPais">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
